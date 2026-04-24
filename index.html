@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -56,6 +57,24 @@ h1{font-size:25px;font-weight:400;text-align:center;color:#e8d5a3;margin-bottom:
 .again-btn{display:inline-block;margin-top:1rem;padding:0.45rem 1.1rem;background:transparent;border:1px solid #c8a060;border-radius:2px;color:#6a4a10;font-family:Georgia,serif;font-size:12px;font-style:italic;cursor:pointer;}
 .again-btn:hover{background:rgba(61,34,0,0.1);}
 .sending-msg{text-align:center;font-size:13px;font-style:italic;color:#c8a855;margin-top:0.75rem;}
+
+@media (max-width: 600px) {
+  .inner { padding: 1.25rem 1rem 2.5rem; }
+  h1 { font-size: 20px; }
+  .princess-name { font-size: 17px; }
+  .petition-cards { grid-template-columns: 1fr 1fr; gap: 7px; }
+  .pet-card { padding: 0.6rem 0.65rem; }
+  .pet-card-title { font-size: 12px; }
+  .pet-card-desc { font-size: 10px; }
+  .sev-row { grid-template-columns: 1fr; gap: 6px; }
+  .sev-btn { font-size: 12px; padding: 0.5rem; }
+  .parchment { padding: 1rem 0.85rem; }
+  .parchment input[type=text], .parchment textarea, .parchment select { font-size: 15px; }
+  .tribute-amount { font-size: 17px; }
+  #submit-btn { font-size: 14px !important; padding: 0.75rem !important; }
+  .corner { font-size: 24px; }
+  .dismissal { padding: 1.25rem 1rem 1.25rem; }
+}
 </style>
 </head>
 <body>
